@@ -52,8 +52,8 @@ Formerly, I was a researcher at Samsung Research (SRA) where I led LLM post-trai
 
 {{< rawhtml >}}
 <p>
-Petting Kobu, the Norway Forest 🐱; I play all games by <a href="https://en.wikipedia.org/wiki/Hidetaka_Miyazaki">Hidetaka Miyazaki</a>, who motivated me once into indie game devs; Good at Dota2 (once). 
-Photography @<a href="https://www.instagram.com/billxbf/?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr#">Instagram</a>; Minimalist.
+I play all games by <a href="https://en.wikipedia.org/wiki/Hidetaka_Miyazaki">Hidetaka Miyazaki</a>, who motivated me once into indie game devs; Good at Dota2 (once). 
+Photography @<a href="https://www.instagram.com/billxbf/?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr#">Instagram</a>; Petting Kobu, the Norway Forest 🐱. Minimalist.
 </p>
 {{< /rawhtml >}}
 

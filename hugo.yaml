@@ -55,7 +55,7 @@ params:
   homeInfoParams:
     Title: "Hello"
     Content: |
-      Welcome to Binfeng's blog. I take notes on my research in ML, LLMs, and Agents. Enjoy!
+      Welcome to Binfeng's blog. I take notes on my research & findings in ML, LLMs, and Agents. Enjoy!
 
   cover:
     image: "/pics/stary.jpg"

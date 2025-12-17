@@ -26,6 +26,3 @@ I'll be writing about:
 
 
 ---
-
-*Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/binfeng-xu-1062b3173/) or [X](https://twitter.com/billxbf), or email to billxbf@gmail.com*
-

@@ -27,6 +27,3 @@ Modern AI Agents are coupled with runtime sandbox for filesystem access and runt
 - OpenHands
 
 ---
-
-*Feel free to connect with me on [GitHub](https://github.com/billxbf), [LinkedIn](https://www.linkedin.com/in/binfeng-xu-1062b3173/), or [X](https://twitter.com/billxbf).*
-
