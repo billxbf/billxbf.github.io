@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on B&#39;Log</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on B&#39;Log</description>
+    <image>
+      <title>B&#39;Log</title>
+      <url>http://localhost:1313/pics/billxbfc.png</url>
+      <link>http://localhost:1313/pics/billxbfc.png</link>
+    </image>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beneath the Scaffolds: Designing modern agent sandbox</title>
+      <link>http://localhost:1313/posts/sandbox-agent-design/</link>
+      <pubDate>Sun, 15 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/sandbox-agent-design/</guid>
+      <description>&lt;p&gt;Modern AI Agents are coupled with runtime sandbox for filesystem access and runtime isolation. Sometimes referred to as Computer-Use Agents (CUA), they autonomously code, use terminal, take notes, and access Internet like human does. In this post, let&amp;rsquo;s dive into agent design principles beneath popular scaffolds like Claude Code, Gemini (Google AI Studio) and ChatGPT Agent, and unveil how agents benefit from better context management, broader action space and autonomous workflows.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Welcome to B&#39;Log</title>
+      <link>http://localhost:1313/posts/hello_world/</link>
+      <pubDate>Sun, 15 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hello_world/</guid>
+      <description>Hello world! This is my new blog where I&amp;rsquo;ll share my learning notes on AI research, LLMs, and autonomous agents.</description>
+    </item>
+  </channel>
+</rss>

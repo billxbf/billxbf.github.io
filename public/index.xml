@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>B&#39;Log</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on B&#39;Log</description>
+    <image>
+      <title>B&#39;Log</title>
+      <url>http://localhost:1313/pics/billxbfc.png</url>
+      <link>http://localhost:1313/pics/billxbfc.png</link>
+    </image>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 14 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beneath Scaffolds: Designing modern agent sandbox</title>
+      <link>http://localhost:1313/posts/sandbox-agent-design/</link>
+      <pubDate>Sat, 14 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/sandbox-agent-design/</guid>
+      <description>&lt;p&gt;Modern AI Agents are coupled with runtime sandbox for filesystem access and runtime isolation. Sometimes referred to as Computer-Use Agents (CUA), they autonomously code, use terminal, take notes, and access Internet like human does. In this post, let&amp;rsquo;s dive into agent design principles beneath popular scaffolds like Claude Code, Gemini (Google AI Studio) and ChatGPT Agent, and unveil how agents benefit from better context management, broader action space and autonomous workflows.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why I start to write</title>
+      <link>http://localhost:1313/posts/hello_world/</link>
+      <pubDate>Fri, 13 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hello_world/</guid>
+      <description>&lt;p&gt;This is a fairly procrastinated start to my personal blog. Starting a blog isn’t as easy as it seems—I don’t want to waste people’s time with casual anecdotes. Meanwhile, an overly formal academic write-up would likely be overkill and scare people away.&lt;/p&gt;
+&lt;p&gt;There are many people who truly enjoy machine learning and find joy in sharing knowledge. I’ve been a long-time follower of AI/tech blogs from &lt;a href=&#34;https://karpathy.github.io/&#34;&gt;Andrej Karpathy&lt;/a&gt;, &lt;a href=&#34;https://lilianweng.github.io/&#34;&gt;Lilian Weng&lt;/a&gt;, &lt;a href=&#34;https://yaofu.notion.site/&#34;&gt;Yao Fu&lt;/a&gt;, and others.
+I usually prefer blogs over papers because blogs feel more honest and less AI-polished (or written to attract citations). Yet almost everyone I followed stopped posting in early 2025. I understand the shifts and hype in SF lately that keep everyone busy building and/or financially free. Still, I’d be sad if this vibe disappears—it’s been truly helpful to me over the past few years, along with many others.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;div style=&#34;display: flex; align-items: flex-start; gap: 2rem; flex-wrap: wrap;&#34;&gt;
+&lt;div style=&#34;flex: 1; min-width: 300px;&#34;&gt;
+&lt;h2 style=&#34;margin-top: 0;&#34;&gt;Binfeng Xu&lt;/h2&gt;
+
+&lt;p&gt;I&amp;rsquo;m a research engineer at &lt;strong&gt;NVIDIA&lt;/strong&gt; cooking autonomous NeMo Agents &amp;ndash; from model training to runtime scaffolding.&lt;/p&gt;
+&lt;p&gt;Formerly, I was a researcher at Samsung Research (SRA) where I led LLM post-training + distillation infra. I enjoy training large neural nets, building open-source projects and competing on &lt;a href=&#34;https://www.kaggle.com/billbafare&#34;&gt;Kaggle&lt;/a&gt;, where I rank top 1% globally.&lt;/p&gt;
+&lt;!-- During my MS. at NYU, I briefly worked with [Alfredo Canziani](https://atcold.github.io/) and [Yann LeCun](https://scholar.google.com/citations?user=WLN3QrAAAAAJ&amp;hl=en) on autonomous driving. Prior at WFU, I was advised by [Grey Ballard](https://users.wfu.edu/ballard/) on efficient tensor decomposition and [Paúl Pauca](https://paucavp.sites.wfu.edu/) on object detection for drone &amp; satellite images. --&gt;
+
+&lt;/div&gt;
+&lt;div style=&#34;flex-shrink: 0; margin-top: 2rem;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/pics/billxbfc.png&#34; alt=&#34;Binfeng Xu&#34; style=&#34;width: 180px; border-radius: 8px;&#34;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;h2 id=&#34;papers&#34;&gt;Papers&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/works/gentopia_arxiv.pdf&#34;&gt;&lt;strong&gt;Gentopia: A Collaborative Platform for Tool-Augmented LLMs&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;
+&lt;span style=&#34;font-size: 0.8em; color: #666;&#34;&gt;&lt;strong&gt;Binfeng Xu&lt;/strong&gt;, Xukun Liu, Hua Shen, Zeyu H, Yuhan L, Murong Y, Zhiyuan P, Yuchen L, Ziyu Y, Dongkuan Xu&lt;/span&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

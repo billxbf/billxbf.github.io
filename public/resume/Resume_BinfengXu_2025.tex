@@ -1,0 +1,237 @@
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage{setspace}
+\usepackage{fancyhdr}
+\usepackage{times}
+\usepackage{enumitem}
+\usepackage[left=0.75in,top=0.5in,right=0.75in,bottom=0.5in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\renewcommand{\baselinestretch}{0.9}
+\usepackage{fontawesome5} %  For modern Font Awesome icons
+\usepackage{xcolor}     % For potential color customization (optional)
+\usepackage[colorlinks=true,
+linkcolor=blue,
+urlcolor=blue]{hyperref}
+% \usepackage{sectsty}
+% \sectionfont{\color{blue!70!black}} % needs 
+\setlength{\parindent}{0pt} 
+
+\name{Binfeng Xu} % Your name
+\vspace{5mm}
+% \address{ +1 (336) 744-6809 \\ billxbf@gmail.com  \\ \href{https://billxbf.github.io/}{\raisebox{-0.2\height}\faHome\ \underline{home}} } % Your phone number and email
+\address{
+  \raisebox{-0.15ex}{\faHome} \ \href{https://billxbf.github.io/}{\underline{Profile}} \\
+  \raisebox{-0.15ex}{\faGithub} \ \href{https://github.com/billxbf}{\underline{GitHub}} \\
+  \raisebox{-0.15ex}{\faLaughSquint[regular]} \ \href{https://huggingface.co/billxbf}{\underline{HuggingFace}} \\
+  \raisebox{-0.15ex}{\faGoogle} \ \href{https://scholar.google.com/citations?user=X8gAsg8AAAAJ&hl=en}{\underline{Scholar}} \\
+  \raisebox{-0.15ex}{\faKaggle} \ \href{https://www.kaggle.com/billbafare}{\underline{Kaggle}} \\
+  \raisebox{-0.15ex}{\faLinkedin} \ \href{https://www.linkedin.com/in/binfeng-xu-1062b3173/}{\underline{LinkedIn}} \\
+  \raisebox{-0.15ex}{\faTwitter} \ \href{https://x.com/billxbf}{\underline{X}} \\
+  \raisebox{-0.25ex}{\faEnvelope} \ \href{mailto:billxbf@gmail.com}{\underline{email}} 
+  % \raisebox{-0.15ex}{\faPhone} 336-744-6809  % Phone
+}
+
+
+\begin{document} 
+
+\vspace{-3mm}
+\begin{rSection}{\Large \textbf{Experience}}
+
+{\bf \large{{\underline {Senior Research Engineer @ Samsung Research America}}}}\ \ \       \textsc{\hfill Oct 2023  \textendash\  Present}
+\vspace{-2mm}
+
+\large{\textsl{Large Foundation Models; On-device AI.}} 
+\vspace{-1mm}
+
+\textbf{\S} \textsl{\textbf{Responsibilities and Contributions:}}\\
+\textbf{I.} \textsl{\bf  Post-Training.} \, Distributed training of 3 $\sim$72B LLMs on 1$\sim$64$\times$A100 GPUs for various tasks. 
+\vspace{-1mm}
+\begin{itemize}[noitemsep, topsep=-1pt, parsep=1pt, partopsep=1pt]
+    \item Supervised Fine-tuning (SFT) LLMs for task-specific instruction following.
+    \item Preference Alignment from feedback (RLHF); Reinforcement Learning from verified reward (RLVR).
+    \item Knowledge Distillation from server-side LLMs to on-device light-weight LLMs. 
+    \item Parameter Efficient Fine-tuning with LoRA and QLoRA for on-device deployment.
+\end{itemize}
+
+\vspace{-1mm}
+\textbf{II.} \textsl{\bf RAG and Agents.} \,End-to-end development of two agentic systems for conversational chat assistant.
+\vspace{-1mm}
+\begin{itemize}[noitemsep, topsep=-1pt, parsep=1pt, partopsep=1pt]
+    \item Designed and architected a modularized agent framework integrating LLM training, inference, prompts, vector database, embedding models, retrieval, ranking, and function calling.
+    \item Built and benchmarked various light-weight NLP modules for optimal efficiency, such as Named Entity Recognition (NER), Entity Linking and Intent Classification as agent function-calls.
+    \item Fine-tuned LLMs for enhanced function calling, context-aware conversation, and safety / rejection.
+\end{itemize}
+
+\vspace{-1mm}
+\textbf{\S} \textsl{\textbf{Selected Projects:}} \\
+\textbf{I.} \textsl{\bf On-device Chat Assistant over Personal Knowledge Graph.} (Galaxy AI)
+
+\vspace{-1mm}
+\begin{itemize}[noitemsep, topsep=-1pt, parsep=1pt, partopsep=0pt]
+    \item Led a group of 5 researchers and engineers to develop an efficient agent system over Personal Knowledge Graph (PKG) for Samsung Gallery, where an on-device 3B LLM is distilled to effectively locate and retrieve information from on-device knowledge graph database (RDFox) and converse with users.   
+\end{itemize}
+
+\vspace{-1mm}
+\textbf{II.} \textsl{\bf Customer Service Troubleshooting Chat Assistant.} (Samsung Web Shop)
+
+\vspace{-1mm}
+\begin{itemize}[noitemsep, topsep=-1pt, parsep=1pt, partopsep=0pt]
+    \item Independently developed a chatbot for electronics troubleshooting. Fine-tuned a series (7B, 27B, 70B) of LLMs to retrieve ranked context from PDF user manuals and past troubleshooting chat log. Hosted server instances for inference, interactive web demo and provided RESTful APIs for product.
+\end{itemize}
+
+\vspace{-1mm}
+\textbf{III.} \textsl{\bf Research and Side Projects. }
+\vspace{-1mm}
+\begin{itemize}[noitemsep, topsep=-1pt, parsep=1pt, partopsep=0pt]
+    \item LLM Reasoning: Mentored a PhD intern on augmenting LLM Mathematical reasoning (on AIME) with step-wise data synthesis from Monte Carlo Tree Search (MCTS) and dynamic step prediction.
+    \item LLM Pretraining: Dumped Yahoo Finance database, tokenized Nasdaq stocks candle history, and trained (from scratch) a 7B transformer on 5 million tokens to predict the market.
+    \item Efficient Inference: Benchmarked Speculative Decoding to accelerate SPARQL code generation.
+\end{itemize}
+
+\vspace{1mm}
+{\bf \large{{\underline{Applied Researcher @ eBay}}}}     \textsc{\hfill Jul 2022  \textendash\  Oct 2023}
+\vspace{-2mm}
+
+\large{\textsl{Recommender Systems; Natural Language Processing; MLOps.}} 
+\vspace{-1mm}
+
+\textbf{I.} \textsl{\bf Table-view Product Comparison Module.} 
+\vspace{-1mm}
+\begin{itemize}[noitemsep, topsep=-1pt, parsep=1pt, partopsep=0pt]
+    \item End-to-end developed a recommendation algorithm for comparable and alternative items, popping up predicted key aspects and features users intend to compare. 
+    \item Trained and served (1) A two-tower User-Product BERT-based embedding model for product candidate recalls. (2) An Aspect Importance model to rank popping-up features.
+    \item Collaborated with a front-end engineer to serve through production, which significantly improved page-level Click-Through-Rate (CTR) by 20\%+ through multiple A/B tests.
+\end{itemize}
+
+\vspace{-1mm}
+\textbf{II.} \textsl{\bf Semantic Book Recommendation.} 
+\vspace{-2mm}
+\begin{itemize}[noitemsep, topsep=-1pt, parsep=1pt, partopsep=0pt]
+    \item Recreated Book Recommendation service on eBay with semantic embeddings from ISBN databases.
+    \item Built and served a batch-updating ANN Index service for ISBN embeddings. Engineered downstream recall \& ranking pipelines to merge ISBN top neighbors into recommendation candidates.
+\end{itemize}
+
+
+{\bf \large{{\underline{Research Intern @ eBay}}}}     \textsc{\hfill May 2021  \textendash\  Aug 2021} 
+
+\vspace{-2mm}
+Fine-tuned an RoBERTa-based fraud detection model using seller-buyer chat log, and served with ONNX.
+
+{\bf \large{{\underline{Research Intern @ Baidu AI Lab}}}}     \textsc{\hfill May 2018  \textendash\  Aug 2018} 
+
+\vspace{-2mm}
+Benchmarked YOLO v3 for an internal face recognition model based on Siamese Network.
+
+
+\end{rSection}
+
+\begin{rSection}{\Large \textbf{Education}}
+
+{\bf \large{\textsc{New York University}}} \,\,\, \textsl{M.S. in Data Science} \hfill  \textsc{Sep 2020  \textendash\  May 2022}
+\vspace{-5px}
+
+Relevant Coursework: Deep Learning, Natural Language Processing \& Understanding.
+
+\noindent {\bf \large{\textsc{Wake Forest University}}} \,\,\, \textsl{B.S. doubling Computer Science and Statistics}       \hfill  \textsc{Sep 2016  \textendash\  May 2020}
+\vspace{-5px}
+
+Relevant Coursework: Machine Learning, Computer Vision, Data Structures \& Algorithms, Parallel Programming, Numerical Computation, Probability \& Statistics, Markov Processes, Convex Optimization.
+
+
+{\bf \textsl{Research @ New York University}}      \textsc{\hfill Dec 2020  \textendash\  Mar 2021}
+\vspace{-1mm}
+{\begin{itemize} [topsep=-2px,partopsep= 0px, itemsep=-2px]
+\item  \emph{\underline {Prediction and Policy-Learning under Uncertainty}} \ \ 
+{{\href{https://github.com/Atcold/pytorch-PPUU}{\faGithub}}} \ \ \ \  
+\hfill Advisor: \emph{Yann LeCun, Alfredo Canziani} 
+\vspace{0.5mm}
+\newline Involved in a policy learning project for self-driving cars, where I experimented with introducing penalization term to the loss of environmental cars in dense traffic to avoid colliding into the studied agent.
+
+\end{itemize}}
+\vspace{0.5mm}
+{\bf \textsl{Research @ Wake Forest University}}     \textsc{\hfill Sep 2018  \textendash\  Dec 2019}
+\vspace{-1mm}
+{\begin{itemize} [topsep=-2px,partopsep= 0px, itemsep=-2px]
+\item \emph{\underline{Tucker Decomposition with f-MRI Neural Activity Tensor}} \ \  {{\href{https://github.com/billxbf/TuckerLCBN/tree/master}{\faGithub}}} 
+\hfill Advisor: \emph{Grey Ballard}
+\vspace{0.5mm}
+\newline Developed a novel algorithm to compress high dimensional f-MRI tensors with Tucker Decomposition for data efficiency, benchmarked against various statistical models.
+\item \emph{\underline{Object Recognition in Peru Forest}} \hfill Advisor: \emph{Paul Pauca}
+\vspace{0.5mm}
+\newline Trained YOLOv3 to detect illegal mining activities of drone-taken images above Peru forests.
+\end{itemize}}
+
+\end{rSection}
+
+\vspace{2mm}
+\begin{rSection}{\Large \textbf{Publications}}
+
+{\bf ReWOO: Decoupling Reasoning from Observations for Efficient Augmented Language Models} \ \ 
+{{\href{https://arxiv.org/abs/2305.18323}{\faLink}}} \
+{{\href{https://github.com/billxbf/ReWOO}{\faGithub}}} \hfill \textsc{2023}
+
+\vspace{-1mm}
+\textit{\textbf{Binfeng Xu*}, Zhiyuan Peng, Bowen Lei, Subhabrata Mukherjee, Yuchen Liu, Dongkuan Xu}
+
+
+{\bf Gentopia: A Collaborative Platform for Tool-Augmented LLMs} \ \
+{{\href{https://arxiv.org/abs/2308.04030}{\faLink}}} \ 
+{{\href{https://github.com/Gentopia-AI/Gentopia}{\faGithub}}} \hfill \textsc{2023}
+
+\vspace{-1mm}
+\textit{\textbf{Binfeng Xu*}, Xukun Liu, Hua Shen, Zeyu H, Yuhan L, Murong Y, Zhiyuan P, Yuchen L, Ziyu Y, Dongkuan X}
+
+{\bf Dynamic Noise Preference Optimization for LLM Self-Improvement via Synthetic Data} \ \
+{{\href{https://openreview.net/forum?id=QdiMWcwU5w&referrer=%5Bthe%20profile%20of%20Binfeng%20Xu%5D(%2Fprofile%3Fid%3D~Binfeng_Xu1)}{\faLink}}} \  \hfill \textsc{2024}
+
+\vspace{-1mm}
+\textit{Haoyan Yang*, Ting Hua, Shangqian Gao, \textbf{Binfeng Xu}, Zheng Tang, Jie Xu, Hongxia Jin, Vijay Srinivasan }
+
+
+
+\end{rSection}
+
+
+\vspace{2mm}
+\begin{rSection}{\Large \textbf{Honors}}
+
+{\bf Kaggle: Competitions Master} - Global Ranking Top 1\% \ \ \hfill  \textsc{May 2018  \textendash\  Present}
+
+{\begin{itemize} [topsep=-1px,partopsep= 0px, itemsep=0px]
+\item \textbf{Classification under noise:} Santander Customer Transaction Prediction \  {{\href{https://www.kaggle.com/certification/competitions/billbafare/santander-customer-transaction-prediction}{\faLink}}}   \hfill \textbf{Rank \#24 of 8,802} \
+\item \textbf{LLM Reward Modeling:} LMSYS Chatbot Arena Human Preference Predictions \  {{\href{https://www.kaggle.com/certification/competitions/billbafare/wsdm-cup-multilingual-chatbot-arena}{\faLink}}}  \hfill  \textbf{Rank \#30 of 950} \
+\item \textbf{Competitive Agent Reinforcement Learning:} Santa 2020 Contest  \  {{\href{https://www.kaggle.com/certification/competitions/billbafare/santa-2020}{\faLink}}} \hfill  \textbf{Rank \#17 of 792} \
+\item \textbf{Time Series Modeling}: BirdCLEF 2021 Birdcall Identification  \  {{\href{https://www.kaggle.com/certification/competitions/billbafare/birdclef-2021}{\faLink}}}  \hfill \textbf{Rank \#15 of 816} \
+
+
+
+
+
+\end{itemize}}
+\vspace{1mm}
+{\bf ACM ICPC: Regional Gold in North Carolina} \hfill \textsc{Mar 2019  \textendash\  Mar 2019}
+
+{\bf Udacity Nanodegree in Deep Learning} \ \  {{\href{https://confirm.udacity.com/APWFNQDV/}{\faLink}}} \hfill \textsc{Sep 2018  \textendash\ Nov 2018}
+\end{rSection}
+
+
+
+
+\vspace{2mm}
+\begin{rSection}{\Large \textbf{Tech Stack}}
+\vspace{1mm}
+{\bf Areas of Strength:} NLP*, LLM Post-training* (SFT, RLHF, RLVR), Retrieval-Augmented Generation (RAG), Agentic Systems, Search \& Ranking, Recommender Systems, MLOps.
+
+{\bf Programming Languages:} Python3*, Scala*, Java, SQL, SPARQL, Kotlin, C\#, C++.
+
+{\bf Infrastructure \& Frameworks:} PyTorch*, HuggingFace* (Transformers, TRL, PEFT, Datasets), DeepSpeed, PyTorch Lightning, Verl, vLLM, LMDeploy, llama.cpp, open-instruct, Ray, Weights \& Biases, Unity3D (simulation).
+
+{\bf Data:} Apache Spark, Lucene, VectorDBs (Faiss, Weaviate), Databases (RDFox, Neo4j, SQLite, MongoDB).
+
+{\bf Serving \& Deployment:} Docker, Kubernetes, Flask, FastAPI, Streamlit, Spring Boot, AWS (EC2, S3).
+
+
+\end{rSection}
+
+
+\end{document}
