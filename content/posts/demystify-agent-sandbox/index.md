@@ -30,14 +30,14 @@ The isolation is especially critical when executing popular `<python>` and `<bro
 Claude Code has gained huge traction in 2025. Although originally designed for coding assistance, Anthropic is clearly shifting its purpose toward more general agent use cases. As stated many times in [recent podcasts](https://www.youtube.com/watch?v=CEvIs9y1uog), Claude Code excels in, or can be extended to other use cases like Deep Research and vertical specialist agents.
 Andrej has also been [tweeting](https://x.com/karpathy/status/2005421816110862601?s=46&t=muzAYwVgphxc-B1ajhy0EA) his mini projects like agentic home control in [physical world](https://x.com/karpathy/status/2005067301511630926?s=20).
 
-{{< figure src="./assets/claude_skill_computer.png" alt="Claude skill" align="center" width="700" caption="*Claude Code scaffolding. The agent controls a virtual sandbox with Bash and coding. Context delegated via file system (Skills). Tools executed outside the sandbox are implemented as MCP.*" >}}
+{{< figure src="./assets/claude_skill_computer.png" alt="Claude skill" align="center" width="700" caption="*Claude Code scaffolding. The agent controls a virtual sandbox with Bash and coding. Context delegated to filesystem (Skills). Tools executed outside the sandbox are implemented as MCP.*" >}}
 
 ### Agentic Computer Use
 
-What's the magic here? Metaphorically, an AI Agent equipped with a File System and Runtime Environment is equivalent to a human using a computer -- the primary, if not only interface connecting humans to the Digital World. **Imagine the action space.** ¯\_(ツ)_/¯  Bearing this idea, scaffolding an agent turns into OS design:
+What's the magic here? Metaphorically, an AI Agent equipped with a Filesystem and Runtime Environment is equivalent to a human using a computer -- the primary, if not only interface connecting humans to the Digital World. **Imagine the action space.** ¯\_(ツ)_/¯  Bearing this idea, scaffolding an agent turns into OS design:
 
 - Configuring a Linux Docker / VM, or, creating a completely native OS from scratch (yes, there are a few working on it).
-- Designing the File System within the sandbox.
+- Designing the Filesystem within the sandbox.
     - You'd wanna pre-install some "Apps" for the agents -- a Terminal, a Browser, a writing pad ... and place some instructions for the agent to refer to before use (Anthropic names it `SKILL.md`).
     - Meanwhile, you'd wanna give agents a "shortcut" to invoke outside endpoints -- like credential-related database querying. These fit into the bucket of traditional function-calling or MCP.
 
@@ -116,5 +116,5 @@ This post showcases the state of Computer-use Agents -- from product to design p
 
 ### Citation
 ```
-Xu, Binfeng. "Demystifying Agent Sandboxes". B'Log (Dec 2025). https://billxbf.github.io/posts/demystify-agent-sandbox/
+Xu, Binfeng. "Demystifying Agent Sandbox". B'Log (Dec 2025). https://billxbf.github.io/posts/demystify-agent-sandbox/
 ```
