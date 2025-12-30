@@ -20,7 +20,7 @@ params:
   description: "Personal blog on AI research, LLMs, and autonomous agents"
   keywords: [AI, Machine Learning, LLM, Agents, Deep Learning]
 
-  images: ["/pics/billxbfc.png"]
+  # images: ["/pics/billxbfc.png"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto
   disableThemeToggle: false

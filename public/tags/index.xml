@@ -4,11 +4,6 @@
     <title>Tags on B&#39;Log</title>
     <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on B&#39;Log</description>
-    <image>
-      <title>B&#39;Log</title>
-      <url>http://localhost:1313/pics/billxbfc.png</url>
-      <link>http://localhost:1313/pics/billxbfc.png</link>
-    </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
