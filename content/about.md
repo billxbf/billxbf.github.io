@@ -12,7 +12,7 @@ ShowBreadCrumbs: false
 <h2 style="margin-top: 0;">Binfeng Xu</h2>
 {{< /rawhtml >}}
 
-I'm a research engineer at **NVIDIA** cooking autonomous NeMo Agents -- from model training to runtime scaffolding.
+I'm a research engineer at **NVIDIA** building autonomous agents. I study and practice the full spectrum from scaffolding, infra to training recipes. 
 
 Formerly, I was a researcher at Samsung Research (SRA) where I led LLM post-training + distillation infra. I enjoy training large neural nets, building open-source projects and competing on [Kaggle](https://www.kaggle.com/billbafare), where I rank top 1% globally. 
 
@@ -52,16 +52,16 @@ Formerly, I was a researcher at Samsung Research (SRA) where I led LLM post-trai
 
 {{< rawhtml >}}
 <p>
-I play all games by <a href="https://en.wikipedia.org/wiki/Hidetaka_Miyazaki">Hidetaka Miyazaki</a>, who motivated me once into indie game devs; Good at Dota2 (once). 
-Photography @<a href="https://www.instagram.com/billxbf/?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr#">Instagram</a>; Petting Kobu, the Norway Forest 🐱. Minimalist.
+I play all games by <a href="https://en.wikipedia.org/wiki/Hidetaka_Miyazaki">Hidetaka Miyazaki</a>, who motivated me once into indie Game Dev. 
+Photography @<a href="https://www.instagram.com/billxbf/?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr#">Instagram</a>; I enjoy Art. Minimalist.
 </p>
 {{< /rawhtml >}}
 
 {{< rawhtml >}}
 <div style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; margin-top: 1.5rem;">
   <!-- <img src="/pics/kobu1.jpg" alt="Kobu" style="max-width: 250px; border-radius: 8px;"> -->
-  <img src="/pics/kobu2.jpg" alt="Kobu" style="max-width: 350px; border-radius: 8px;">
-  <!-- <img src="/pics/kobu3.jpg" alt="Kobu" style="max-width: 250px; border-radius: 8px;"> -->
+  <img src="/pics/kobu2.jpg" alt="Kobu" style="max-width: 400px; border-radius: 8px;">
+  <img src="/pics/kobu5.jpg" alt="Kobu" style="max-width: 150px; border-radius: 8px;">
 </div>
 {{< /rawhtml >}}
 

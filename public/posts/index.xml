@@ -2,29 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on B&#39;Log</title>
-    <link>http://localhost:52674/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on B&#39;Log</description>
     <image>
       <title>B&#39;Log</title>
-      <url>http://localhost:52674/pics/billxbfc.png</url>
-      <link>http://localhost:52674/pics/billxbfc.png</link>
+      <url>http://localhost:1313/pics/billxbfc.png</url>
+      <link>http://localhost:1313/pics/billxbfc.png</link>
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Dec 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:52674/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Beneath Scaffolds: Designing modern agent sandbox</title>
-      <link>http://localhost:52674/posts/sandbox-agent-design/</link>
-      <pubDate>Sat, 14 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52674/posts/sandbox-agent-design/</guid>
-      <description>&lt;p&gt;Modern AI Agents are coupled with runtime sandbox for filesystem access and runtime isolation. Sometimes referred to as Computer-Use Agents (CUA), they autonomously code, use terminal, take notes, and access Internet like human does. In this post, let&amp;rsquo;s dive into agent design principles beneath popular scaffolds like Claude Code, Gemini (Google AI Studio) and ChatGPT Agent, and unveil how agents benefit from better context management, broader action space and autonomous workflows.&lt;/p&gt;</description>
+      <title>Beneath Agentic Sandbox</title>
+      <link>http://localhost:1313/posts/sandbox-agent-design/</link>
+      <pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/sandbox-agent-design/</guid>
+      <description>&lt;p&gt;Modern AI agents are often scaffolded with a runtime sandbox. Often referred to as Computer-Use Agents (CUA), they autonomously run code, use terminal, take notes, and access Internet and MCPs &amp;ndash; exactly like humans do when interacting with the digital world.&lt;/p&gt;
+&lt;p&gt;Yet, the reasoning and best practices remain unclear to most. So let&amp;rsquo;s dive into popular agent scaffolds like &lt;a href=&#34;https://www.anthropic.com/engineering/claude-code-best-practices&#34;&gt;Claude Code&lt;/a&gt; and &lt;a href=&#34;https://agent.minimax.io/&#34;&gt;MiniMax Agent&lt;/a&gt;, demystifying the design principles and discovering how agents benefit from using a computer.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Why I start to write</title>
-      <link>http://localhost:52674/posts/hello_world/</link>
-      <pubDate>Fri, 13 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:52674/posts/hello_world/</guid>
+      <link>http://localhost:1313/posts/hello_world/</link>
+      <pubDate>Sat, 13 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/hello_world/</guid>
       <description>&lt;p&gt;This is a fairly procrastinated start to my personal blog. Starting a blog isn’t as easy as it seems—I don’t want to waste people’s time with casual anecdotes. Meanwhile, an overly formal academic write-up would likely be overkill and scare people away.&lt;/p&gt;
 &lt;p&gt;There are many people who truly enjoy machine learning and find joy in sharing knowledge. I’ve been a long-time follower of AI/tech blogs from &lt;a href=&#34;https://karpathy.github.io/&#34;&gt;Andrej Karpathy&lt;/a&gt;, &lt;a href=&#34;https://lilianweng.github.io/&#34;&gt;Lilian Weng&lt;/a&gt;, &lt;a href=&#34;https://yaofu.notion.site/&#34;&gt;Yao Fu&lt;/a&gt;, and others.
 I usually prefer blogs over papers because blogs feel more honest and less AI-polished (or written to attract citations). Yet almost everyone I followed stopped posting in early 2025. I understand the shifts and hype in SF lately that keep everyone busy building and/or financially free. Still, I’d be sad if this vibe disappears—it’s been truly helpful to me over the past few years, along with many others.&lt;/p&gt;</description>

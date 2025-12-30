@@ -1,6 +1,6 @@
 ---
 title: "Why I start to write"
-date: 2024-12-13
+date: 2025-12-13
 draft: false
 showToc: false
 TocOpen: false
@@ -20,9 +20,8 @@ I’ve been more of a builder than a writer, hesitant to publish conclusions wit
 
 I'll be writing about:
 
-- **Tech Hacks**: Most of the time, truth in tech doesn't reside in reports or posts but hidden in code. I enjoy digging these gems out to see the real flow.
+- **Tech Hacks**: Most of the time, truth in tech world doesn't reside in reports or posts but hidden in code. I enjoy digging these gems out to see the real flow.
 - **Different AI Research**: I continuously keep track of frontier AI research and especially favor the non-incremental ones, like new architectures to model intelligence.
-- **Stories and Gossip**: The true frontier trends and news usually come from stories and gossip shared through friends, meetups, or conferences.
-
+- **Stories and Gossip**: The true SOTA usually come from stories and gossip shared through friends, meetups, and conferences.
 
 ---
