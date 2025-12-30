@@ -1,5 +1,5 @@
 ---
-title: "Demystifying Agent Sandboxes"
+title: "Demystifying Agent Sandbox"
 date: 2025-12-28
 showToc: true
 TocOpen: false
