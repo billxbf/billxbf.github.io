@@ -39,8 +39,22 @@ I usually prefer blogs over papers because blogs feel more honest and less AI-po
 &lt;div style=&#34;flex: 1; min-width: 300px;&#34;&gt;
 &lt;h2 style=&#34;margin-top: 0;&#34;&gt;Binfeng Xu&lt;/h2&gt;
 
-&lt;p&gt;I&amp;rsquo;m a research engineer at &lt;strong&gt;NVIDIA&lt;/strong&gt; building autonomous agents. I study and practice the full spectrum from scaffolding, infra to training recipes.&lt;/p&gt;
-&lt;p&gt;Formerly, I was a researcher at Samsung Research (SRA) where I led LLM post-training + distillation infra. I enjoy training large neural nets, building open-source projects and competing on &lt;a href=&#34;https://www.kaggle.com/billbafare&#34;&gt;Kaggle&lt;/a&gt;, where I rank top 1% globally.&lt;/p&gt;</description>
+&lt;p&gt;I&amp;rsquo;m a research engineer at &lt;strong&gt;NVIDIA&lt;/strong&gt;. I study and build autonomous agents.&lt;/p&gt;
+&lt;p&gt;Formerly, I was a researcher at Samsung Research (SRA) where I led LLM post-training + distillation infra. I enjoy training large neural nets, building open-source projects and competing on &lt;a href=&#34;https://www.kaggle.com/billbafare&#34;&gt;Kaggle&lt;/a&gt;, where I rank top 1% globally.&lt;/p&gt;
+&lt;!-- During my MS. at NYU, I briefly worked with [Alfredo Canziani](https://atcold.github.io/) and [Yann LeCun](https://scholar.google.com/citations?user=WLN3QrAAAAAJ&amp;hl=en) on autonomous driving. Prior at WFU, I was advised by [Grey Ballard](https://users.wfu.edu/ballard/) on efficient tensor decomposition and [Paúl Pauca](https://paucavp.sites.wfu.edu/) on object detection for drone &amp; satellite images. --&gt;
+
+&lt;/div&gt;
+&lt;div style=&#34;flex-shrink: 0; margin-top: 2rem;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/pics/billxbfc.png&#34; alt=&#34;Binfeng Xu&#34; style=&#34;width: 180px; border-radius: 8px;&#34;&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;h2 id=&#34;papers&#34;&gt;Papers&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/works/gentopia_arxiv.pdf&#34;&gt;&lt;strong&gt;Gentopia: A Collaborative Platform for Tool-Augmented LLMs&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;
+&lt;span style=&#34;font-size: 0.8em; color: #666;&#34;&gt;&lt;strong&gt;Binfeng Xu&lt;/strong&gt;, Xukun Liu, Hua Shen, Zeyu H, Yuhan L, Murong Y, Zhiyuan P, Yuchen L, Ziyu Y, Dongkuan Xu&lt;/span&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

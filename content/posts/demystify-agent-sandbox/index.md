@@ -23,28 +23,14 @@ Intuitively, you'd want to move episodic context out of the main agent loop usin
 **Runtime Isolation.** Sandboxing ensures all agent actions run in a tightly controlled environment, protecting the host system by isolating potential errors and de-risking real user data or resources. 
 The isolation is especially critical when executing popular `<python>` and `<browser>` tools.
 
-{{< rawhtml >}}
-<div style="text-align: center;">
-  <img src="./assets/cursor-sandbox.png" alt="Agent cursor in sandbox" style="max-width: 350px; border-radius: 8px; margin: 1.5em auto;">
-  <div style="font-size: 1em; color: #666; margin-top: -1.5em;">
-    <em>Cursor (Agent mode) running commands in a secure sandbox</em>
-  </div>
-</div>
-{{< /rawhtml >}}
+{{< figure src="./assets/cursor-sandbox.png" alt="Agent cursor in sandbox" align="center" width="350" caption="*Cursor (Agent mode) running commands in a secure sandbox*" >}}
 
 
 ## Claude Code -- More than just Code
 Claude Code has gained huge traction in 2025. Although originally designed for coding assistance, Anthropic is clearly shifting its purpose toward more general agent use cases. As stated many times in [recent podcasts](https://www.youtube.com/watch?v=CEvIs9y1uog), Claude Code excels in, or can be extended to other use cases like Deep Research and vertical specialist agents.
 Andrej has also been [tweeting](https://x.com/karpathy/status/2005421816110862601?s=46&t=muzAYwVgphxc-B1ajhy0EA) his mini projects like agentic home control in [physical world](https://x.com/karpathy/status/2005067301511630926?s=20).
 
-{{< rawhtml >}}
-<div style="text-align: center;">
-  <img src="./assets/claude_skill_computer.png" alt="Claude skill" style="max-width: 700px; border-radius: 8px; margin: 1.5em auto;">
-  <div style="font-size: 1em; color: #666; margin-top: -1.5em;">
-    <em>Claude Code scaffolding. The agent controls a virtual sandbox with Bash and coding. Context delegated via file system (Skills). Tools executed outside the sandbox are implemented as MCP.</em>
-  </div>
-</div>
-{{< /rawhtml >}}
+{{< figure src="./assets/claude_skill_computer.png" alt="Claude skill" align="center" width="700" caption="*Claude Code scaffolding. The agent controls a virtual sandbox with Bash and coding. Context delegated via file system (Skills). Tools executed outside the sandbox are implemented as MCP.*" >}}
 
 ### Agentic Computer Use
 
@@ -63,84 +49,39 @@ However, there's an interesting thread where people [trace and hack](https://mar
 For example, Claude Code doesn't use an interactive browser like [browser-use](https://browser-use.com/) does by default. Instead it creates two separate `WebSearch` and `WebFetch` tools, likely due to speed & efficiency concerns.
 
 
-{{< rawhtml >}}
-<div style="text-align: center;">
-  <img src="./assets/claude_tools.png" alt="Claude skill" style="max-width: 700px; border-radius: 8px; margin: 1.5em auto;">
-  <div style="font-size: 1em; color: #666; margin-top: -1.5em;">
-    <em>Summary of Claude Code's tools from the hacked system prompt.</em>
-  </div>
-</div>
-{{< /rawhtml >}}
+{{< figure src="./assets/claude_tools.png" alt="Claude tools" align="center" width="700" caption="*Summary of Claude Code's tools from the hacked system prompt.*" >}}
 
 ### Claude Code Filesystem
 
 When locally deployed, Claude Code uses `~/.claude/` for its own sandbox workspace, and your work project is mounted under `~/.claude/projects/`. 
 The scaffold keeps `plugins` (MCP integrations) and `skills` in different directories, and further tracks TODO, personalization configs, and metadata like command history and debug logs.
 
-{{< rawhtml >}}
-<div style="text-align: center;">
-  <img src="./assets/claude_code_fs.png" alt="Claude skill" style="max-width: 500px; border-radius: 8px; margin: 1.5em auto;">
-  <div style="font-size: 1em; color: #666; margin-top: -1.5em;">
-    <em>Claude Code's working filesystem.</em>
-  </div>
-</div>
-{{< /rawhtml >}}
+{{< figure src="./assets/claude_code_fs.png" alt="Claude Code filesystem" align="center" width="500" caption="*Claude Code's working filesystem.*" >}}
 
 ## MiniMax Agent 
 
 MiniMax has been my most surprising AI lab this year. It ships the #1 (as of Dec 2025) OSS model on [LMArena WebDev](https://lmarena.ai/leaderboard/webdev) at 229B weights, which is considered "small" among parallel flagship models. On the other side, the agent scaffold, [MiniMax Agent](https://agent.minimax.io/) creates surprisingly good apps and reports with prolonged reasoning and autonomous execution. Here's my favorite [trajectory replay](https://agent.minimax.io/share/296564788117720).
 
-{{< rawhtml >}}
-<div style="display: flex; gap: 1.5rem; justify-content: center; align-items: flex-start; flex-wrap: wrap;">
-  <div style="flex: 1 1 300px; min-width: 300px;">
-    <img src="./assets/minimax_browser.png" alt="MiniMax Browser Agent" style="width: 100%; max-width: 420px; border-radius: 8px; box-shadow: 0 0 8px #ddd;">
-  </div>
-  <div style="flex: 1 1 300px; min-width: 300px;">
-    <img src="./assets/nflx_clone.png" alt="MiniMax Agent builds a Netflix clone" style="width: 100%; max-width: 420px; border-radius: 8px; box-shadow: 0 0 8px #ddd; margin-top: 2.5em;">
-  </div>
-</div>
-<div style="text-align: center; font-size: 1.05em; color: #555; margin-top: -0.75em;">
-  <em>MiniMax Agent using browser and autonomous app creation (Netflix Clone).</em>
-</div>
-{{< /rawhtml >}}
+
+{{< figure src="./assets/minimax_browser.png" alt="MiniMax Browser Agent" align="center" width="500" caption="*MiniMax Agent using browser for autonomous app creation (Netflix Clone)*" >}}
+
 
 Minimax Agent has a UI component that allows you to navigate the agent's sandbox filesystem in realtime. You can prompt the agent to summarize its initial filesystem state. 
 This workspace is a Python-based development environment designed for AI agents with integrated external API access capabilities. There are rich modular data sources that connect to various third-party APIs including Twitter, Yahoo Finance, TripAdvisor, Pinterest, Patents, Scholar, Commodities, Metals, and Booking.com. None of these are written into the system prompt, thus leveraging the context delegation advantage in agent sandbox.
 
-{{< rawhtml >}}
-<div style="text-align: center;">
-  <img src="./assets/minimax_fs.png" alt="Claude skill" style="max-width: 500px; border-radius: 8px; margin: 1.5em auto;">
-  <div style="font-size: 1em; color: #666; margin-top: -1.5em;">
-    <em>Minimax Agent's working filesystem.</em>
-  </div>
-</div>
-{{< /rawhtml >}}
+{{< figure src="./assets/minimax_fs.png" alt="MiniMax Agent filesystem" align="center" width="500" caption="*Minimax Agent's working filesystem.*" >}}
 
 
 ## Other Computer-use Agents
 
 Major AI labs have all been building Computer-use Agents, yet differing in the design principles (driven by product philosophy). OpenAI seems to have made great progress on [Operator](https://openai.com/index/introducing-operator/) and [ChatGPT Atlas](https://chatgpt.com/atlas). I really enjoy the visual presentation and dynamics of the agent sandbox at runtime.
 
-{{< rawhtml >}}
-<div style="text-align: center;">
-  <img src="./assets/oai_cua.png" alt="Claude skill" style="max-width: 500px; border-radius: 8px; margin: 1.5em auto;">
-  <div style="font-size: 1em; color: #666; margin-top: -1.5em;">
-    <em>OpenAI Agent using Terminal</em>
-  </div>
-</div>
-{{< /rawhtml >}}
+{{< figure src="./assets/oai_cua.png" alt="OpenAI Agent using Terminal" align="center" width="500" caption="*OpenAI Agent using Terminal*" >}}
 
 Prompting Operator to describe its filesystem, you'll observe a complete Linux VM with two working directories -- `/home/oai` containing session data and `/openai` storing internal "Skills".
 From ChatGPT's self manifest, the only skill installed is a Browser.
 
-{{< rawhtml >}}
-<div style="text-align: center;">
-  <img src="./assets/oai_fs.png" alt="Claude skill" style="max-width: 500px; border-radius: 8px; margin: 1.5em auto;">
-  <div style="font-size: 1em; color: #666; margin-top: -1.5em;">
-    <em>OpenAI Agent using Terminal</em>
-  </div>
-</div>
-{{< /rawhtml >}}
+{{< figure src="./assets/oai_fs.png" alt="OpenAI Agent filesystem" align="center" width="500" caption="*OpenAI Agent filesystem*" >}}
 
 
 Besides OpenAI, there are a great number of players in the space. For example, [Google AI Studio (Build)](https://aistudio.google.com/u/1/apps) is able to build and test apps from ideas with advanced multimodal capabilities from Gemini. [Manus](https://manus.im/) orchestrates a huge number of subagents and services like [browser-use](https://browser-use.com/) to max out agent action space. 
@@ -158,27 +99,13 @@ Although most LLMs are trained with vanilla sandbox scaffolds to support evaluat
 A key challenge in Agentic RL is to build stable and efficient rollout infra. The additional factor of sandbox and tools like browser impose difficulty in asynchronous runtime efficiency, state management, and security. These rollouts are usually **magnitudes** more expensive (time and effort) than non-agentic RL like Math CoT. A nice starting point is [OpenHands V1](https://arxiv.org/pdf/2511.03690v1) released lately. The architecture of decoupled modules (abstraction, tools, sandbox, and server) provides solid coordination with reusable modules across scaffolding and rollout serving. Besides, [Pytorch OpenEnv](https://github.com/meta-pytorch/OpenEnv) provides a nice Gymnasium-style endpoint over commonly used agent docker environments.
 
 
-{{< rawhtml >}}
-<div style="text-align: center;">
-  <img src="./assets/openhandsv1.png" alt="Claude skill" style="max-width: 500px; border-radius: 8px; margin: 1.5em auto;">
-  <div style="font-size: 1em; color: #666; margin-top: -1.5em;">
-    <em>OpenHands V1 with decoupled modules reusable across rollout and scaffolding.</em>
-  </div>
-</div>
-{{< /rawhtml >}}
+{{< figure src="./assets/openhandsv1.png" alt="OpenHands V1 architecture" align="center" width="500" caption="*OpenHands V1 with decoupled modules reusable across rollout and scaffolding.*" >}}
 
 ### Reward Design and Training Recipe
 
 Another challenge in Agentic RL is to define the reward function. Computer-use agents are usually used for open-ended tasks like research and app building. Such tasks usually lack **unbiased** and **verifiable** scoring mechanisms as in *Math* and *Coding*. Meanwhile, vanilla use of LLM-As-Judge to generate rewards can easily trap the policy into **adversarial distribution** from the teacher (Reward Hacking). This is also confirmed in Andrej's recent [interview](https://x.com/dwarkesh_sp/status/1979234976777539987?s=20) "RL is terrible". An interesting approach to mitigate reward hacking in open-ended research is brought by AI2 [DR Tulu](https://allenai.org/blog/dr-tulu), where rubrics are buffered and generated on the fly together with policy. The algorithm setups used for Agentic RL generally follow the lessons from long-context RL in LLMs, such as [broadening exploration](https://arxiv.org/pdf/2510.01180) in [prolonged](https://arxiv.org/pdf/2505.24864) steps. 
 
-{{< rawhtml >}}
-<div style="text-align: center;">
-  <img src="./assets/dr_tulu.png" alt="Claude skill" style="max-width: 500px; border-radius: 8px; margin: 1.5em auto;">
-  <div style="font-size: 1em; color: #666; margin-top: -1.5em;">
-    <em>Reinforcement Learning with Evolving Rubrics (RLER)</em>
-  </div>
-</div>
-{{< /rawhtml >}}
+{{< figure src="./assets/dr_tulu.png" alt="DR Tulu RLER" align="center" width="500" caption="*Reinforcement Learning with Evolving Rubrics (RLER)*" >}}
 
 ## Conclusion
 
