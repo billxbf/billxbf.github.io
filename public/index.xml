@@ -2,34 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>B&#39;Log</title>
-    <link>https://billxbf.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on B&#39;Log</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 28 Dec 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://billxbf.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Demystifying Agent Sandbox</title>
-      <link>https://billxbf.github.io/posts/demystify-agent-sandbox/</link>
+      <link>http://localhost:1313/posts/demystify-agent-sandbox/</link>
       <pubDate>Sun, 28 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://billxbf.github.io/posts/demystify-agent-sandbox/</guid>
+      <guid>http://localhost:1313/posts/demystify-agent-sandbox/</guid>
       <description>&lt;p&gt;Modern AI agents are typically scaffolded with a runtime sandbox, and these Computer-Use Agents (CUA) autonomously run code, use the terminal, take notes, and access the Internet and MCPs &amp;ndash; exactly like humans do when interacting with the digital world.&lt;/p&gt;
 &lt;p&gt;Yet the underlying reasoning and practices remain unclear to most, so let&amp;rsquo;s dive into popular agent scaffolds like &lt;a href=&#34;https://www.anthropic.com/engineering/claude-code-best-practices&#34;&gt;Claude Code&lt;/a&gt; and &lt;a href=&#34;https://agent.minimax.io/&#34;&gt;MiniMax Agent&lt;/a&gt;, demystifying the design principles and discovering how agents benefit from using a computer.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Why I start to write</title>
-      <link>https://billxbf.github.io/posts/hello_world/</link>
+      <link>http://localhost:1313/posts/hello_world/</link>
       <pubDate>Sat, 13 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://billxbf.github.io/posts/hello_world/</guid>
+      <guid>http://localhost:1313/posts/hello_world/</guid>
       <description>&lt;p&gt;This is a fairly procrastinated start to my personal blog. Starting a blog isn’t as easy as it seems—I don’t want to waste people’s time with casual anecdotes. Meanwhile, an overly formal academic write-up would likely be overkill and scare people away.&lt;/p&gt;
 &lt;p&gt;There are many people who truly enjoy machine learning and find joy in sharing knowledge. I’ve been a long-time follower of AI/tech blogs from &lt;a href=&#34;https://karpathy.github.io/&#34;&gt;Andrej Karpathy&lt;/a&gt;, &lt;a href=&#34;https://lilianweng.github.io/&#34;&gt;Lilian Weng&lt;/a&gt;, &lt;a href=&#34;https://yaofu.notion.site/&#34;&gt;Yao Fu&lt;/a&gt;, and others.
 I usually prefer blogs over papers because blogs feel more honest and less AI-polished (or written to attract citations). Yet almost everyone I followed stopped posting in early 2025. I understand the shifts and hype in SF lately that keep everyone busy building and/or financially free. Still, I’d be sad if this vibe disappears—it’s been truly helpful to me over the past few years, along with many others.&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>https://billxbf.github.io/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://billxbf.github.io/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>&lt;div style=&#34;display: flex; align-items: flex-start; gap: 2rem; flex-wrap: wrap;&#34;&gt;
 &lt;div style=&#34;flex: 1; min-width: 300px;&#34;&gt;
 &lt;h2 style=&#34;margin-top: 0;&#34;&gt;Binfeng Xu&lt;/h2&gt;
@@ -40,7 +40,7 @@ I usually prefer blogs over papers because blogs feel more honest and less AI-po
 
 &lt;/div&gt;
 &lt;div style=&#34;flex-shrink: 0; margin-top: 2rem;&#34;&gt;
-&lt;img src=&#34;https://billxbf.github.io/pics/billxbfc.png&#34; alt=&#34;Binfeng Xu&#34; style=&#34;width: 180px; border-radius: 8px;&#34;&gt;
+&lt;img src=&#34;http://localhost:1313/pics/billxbfc.png&#34; alt=&#34;Binfeng Xu&#34; style=&#34;width: 180px; border-radius: 8px;&#34;&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
@@ -48,7 +48,7 @@ I usually prefer blogs over papers because blogs feel more honest and less AI-po
 &lt;h2 id=&#34;papers&#34;&gt;Papers&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;https://billxbf.github.io/works/gentopia_arxiv.pdf&#34;&gt;&lt;strong&gt;Gentopia: A Collaborative Platform for Tool-Augmented LLMs&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/works/gentopia_arxiv.pdf&#34;&gt;&lt;strong&gt;Gentopia: A Collaborative Platform for Tool-Augmented LLMs&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;
 &lt;span style=&#34;font-size: 0.8em; color: #666;&#34;&gt;&lt;strong&gt;Binfeng Xu&lt;/strong&gt;, Xukun Liu, Hua Shen, Zeyu H, Yuhan L, Murong Y, Zhiyuan P, Yuchen L, Ziyu Y, Dongkuan Xu&lt;/span&gt;&lt;/p&gt;</description>
     </item>
   </channel>
