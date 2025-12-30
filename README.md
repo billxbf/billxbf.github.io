@@ -1,4 +1,4 @@
-# Binfeng'Log
+# B'Log
 
 Personal blog built with [Hugo](https://gohugo.io/) and [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme.
 
