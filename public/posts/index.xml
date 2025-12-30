@@ -11,15 +11,15 @@
     </image>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 14 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 28 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Beneath Agentic Sandbox</title>
-      <link>http://localhost:1313/posts/sandbox-agent-design/</link>
-      <pubDate>Sun, 14 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/sandbox-agent-design/</guid>
+      <title>Demystifying Agent Sandbox</title>
+      <link>http://localhost:1313/posts/demystify-agent-sandbox/</link>
+      <pubDate>Sun, 28 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/demystify-agent-sandbox/</guid>
       <description>&lt;p&gt;Modern AI agents are often scaffolded with a runtime sandbox. Often referred to as Computer-Use Agents (CUA), they autonomously run code, use terminal, take notes, and access Internet and MCPs &amp;ndash; exactly like humans do when interacting with the digital world.&lt;/p&gt;
-&lt;p&gt;Yet, the reasoning and best practices remain unclear to most. So let&amp;rsquo;s dive into popular agent scaffolds like &lt;a href=&#34;https://www.anthropic.com/engineering/claude-code-best-practices&#34;&gt;Claude Code&lt;/a&gt; and &lt;a href=&#34;https://agent.minimax.io/&#34;&gt;MiniMax Agent&lt;/a&gt;, demystifying the design principles and discovering how agents benefit from using a computer.&lt;/p&gt;</description>
+&lt;p&gt;The underlying reasoning and practices remain unclear to most. Let&amp;rsquo;s dive into popular agent scaffolds like &lt;a href=&#34;https://www.anthropic.com/engineering/claude-code-best-practices&#34;&gt;Claude Code&lt;/a&gt; and &lt;a href=&#34;https://agent.minimax.io/&#34;&gt;MiniMax Agent&lt;/a&gt;, demystifying the design principles and discovering how agents benefit from using a computer.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Why I start to write</title>
