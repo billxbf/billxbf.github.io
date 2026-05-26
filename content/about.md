@@ -12,7 +12,7 @@ ShowBreadCrumbs: false
 <h2 style="margin-top: 0;">Binfeng Xu</h2>
 {{< /rawhtml >}}
 
-I'm a research engineer at **NVIDIA**. I study and build autonomous agents.
+I'm a research engineer at **NVIDIA**. Currently, I work on agent harness and RL for **computer-use** and **continual learning**.
 
 Formerly, I was a researcher at Samsung Research (SRA) where I led LLM post-training + distillation infra. I enjoy training large neural nets, building open-source projects and competing on [Kaggle](https://www.kaggle.com/billbafare), where I rank top 1% globally. 
 
@@ -21,7 +21,7 @@ Formerly, I was a researcher at Samsung Research (SRA) where I led LLM post-trai
 {{< rawhtml >}}
 </div>
 <div style="flex-shrink: 0; margin-top: 2rem;">
-<img src="/pics/billxbfc.png" alt="Binfeng Xu" style="width: 180px; border-radius: 8px;">
+<img src="/pics/billxbf.png" alt="Binfeng Xu" style="width: 220px; border-radius: 8px;">
 </div>
 </div>
 {{< /rawhtml >}}

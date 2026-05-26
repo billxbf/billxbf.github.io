@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Infra on B&#39;Log</title>
+    <link>http://localhost:1313/tags/infra/</link>
+    <description>Recent content in Infra on B&#39;Log</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 May 2026 01:04:32 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/infra/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rethinking RL Infra for Agents</title>
+      <link>http://localhost:1313/posts/agent-rl-infra/</link>
+      <pubDate>Tue, 26 May 2026 01:04:32 -0400</pubDate>
+      <guid>http://localhost:1313/posts/agent-rl-infra/</guid>
+      <description>Why agentic RL is breaking the assumptions that RLVR frameworks were built on &amp;ndash; and what the next generation of RL infra needs to look like. A survey of Forge, ROLL, Seer and Slime, plus lessons from my own work on Polar.</description>
+    </item>
+  </channel>
+</rss>
