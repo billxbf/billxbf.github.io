@@ -12,7 +12,7 @@ ShowBreadCrumbs: false
 <h2 style="margin-top: 0;">Binfeng Xu</h2>
 {{< /rawhtml >}}
 
-I'm a research engineer at **NVIDIA**. Currently, I work on agent harness and RL for **computer-use** and **continual learning**.
+I'm a research engineer at **NVIDIA**. Currently, I work on Agent RL and harness codesign for **computer-use** and **continual learning**.
 
 Formerly, I was a researcher at Samsung Research (SRA) where I led LLM post-training + distillation infra. I enjoy training large neural nets, building open-source projects and competing on [Kaggle](https://www.kaggle.com/billbafare), where I rank top 1% globally. 
 
@@ -30,6 +30,9 @@ Formerly, I was a researcher at Samsung Research (SRA) where I led LLM post-trai
 
 
 ## Papers
+
+- [**Polar: Agentic RL on Any Harness at Scale**](/works/polar_arxiv.pdf)  
+  <span style="font-size: 0.8em; color: #666;">**Binfeng Xu**, Hao Zhang, Shaokun Zhang, Songyang Han, Mingjie Liu, Jian Hu, Shizhe Diao, Zhenghui Jin, Yunheng Zou, Michael Demoret, Jan Kautz, Yi Dong</span>
 
 - [**Gentopia: A Collaborative Platform for Tool-Augmented LLMs**](/works/gentopia_arxiv.pdf)  
   <span style="font-size: 0.8em; color: #666;">**Binfeng Xu**, Xukun Liu, Hua Shen, Zeyu H, Yuhan L, Murong Y, Zhiyuan P, Yuchen L, Ziyu Y, Dongkuan Xu</span>

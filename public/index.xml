@@ -13,7 +13,7 @@
       <link>http://localhost:1313/posts/agent-rl-infra/</link>
       <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/agent-rl-infra/</guid>
-      <description>Why the agentic shift breaks classical RL infra, a tour of Forge, ROLL, SkyRL and Slime, and our recent take with Polar.</description>
+      <description>Why the agentic shift breaks classical RL infra, a tour of Forge, ROLL, SkyRL and Slime, and my recent take with Polar (Agentic RL on Any Harness at Scale).</description>
     </item>
     <item>
       <title>Demystifying Agent Sandbox</title>
@@ -41,7 +41,7 @@ I usually prefer blogs over papers because blogs feel more honest and less AI-po
 &lt;div style=&#34;flex: 1; min-width: 300px;&#34;&gt;
 &lt;h2 style=&#34;margin-top: 0;&#34;&gt;Binfeng Xu&lt;/h2&gt;
 
-&lt;p&gt;I&amp;rsquo;m a research engineer at &lt;strong&gt;NVIDIA&lt;/strong&gt;. Currently, I work on agent harness and RL for &lt;strong&gt;computer-use&lt;/strong&gt; and &lt;strong&gt;continual learning&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m a research engineer at &lt;strong&gt;NVIDIA&lt;/strong&gt;. Currently, I work on Agent RL and harness codesign for &lt;strong&gt;computer-use&lt;/strong&gt; and &lt;strong&gt;continual learning&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Formerly, I was a researcher at Samsung Research (SRA) where I led LLM post-training + distillation infra. I enjoy training large neural nets, building open-source projects and competing on &lt;a href=&#34;https://www.kaggle.com/billbafare&#34;&gt;Kaggle&lt;/a&gt;, where I rank top 1% globally.&lt;/p&gt;
 &lt;!-- During my MS. at NYU, I briefly worked with [Alfredo Canziani](https://atcold.github.io/) and [Yann LeCun](https://scholar.google.com/citations?user=WLN3QrAAAAAJ&amp;hl=en) on autonomous driving. Prior at WFU, I was advised by [Grey Ballard](https://users.wfu.edu/ballard/) on efficient tensor decomposition and [Paúl Pauca](https://paucavp.sites.wfu.edu/) on object detection for drone &amp; satellite images. --&gt;
 
@@ -55,8 +55,8 @@ I usually prefer blogs over papers because blogs feel more honest and less AI-po
 &lt;h2 id=&#34;papers&#34;&gt;Papers&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/works/gentopia_arxiv.pdf&#34;&gt;&lt;strong&gt;Gentopia: A Collaborative Platform for Tool-Augmented LLMs&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;
-&lt;span style=&#34;font-size: 0.8em; color: #666;&#34;&gt;&lt;strong&gt;Binfeng Xu&lt;/strong&gt;, Xukun Liu, Hua Shen, Zeyu H, Yuhan L, Murong Y, Zhiyuan P, Yuchen L, Ziyu Y, Dongkuan Xu&lt;/span&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/works/polar_arxiv.pdf&#34;&gt;&lt;strong&gt;Polar: Agentic RL on Any Harness at Scale&lt;/strong&gt;&lt;/a&gt;&lt;br&gt;
+&lt;span style=&#34;font-size: 0.8em; color: #666;&#34;&gt;&lt;strong&gt;Binfeng Xu&lt;/strong&gt;, Hao Zhang, Shaokun Zhang, Songyang Han, Mingjie Liu, Jian Hu, Shizhe Diao, Zhenghui Jin, Yunheng Zou, Michael Demoret, Jan Kautz, Yi Dong&lt;/span&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

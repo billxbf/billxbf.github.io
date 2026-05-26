@@ -6,14 +6,14 @@
     <description>Recent content in Polar on B&#39;Log</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 May 2026 01:04:32 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 26 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/polar/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rethinking RL Infra for Agents</title>
       <link>http://localhost:1313/posts/agent-rl-infra/</link>
-      <pubDate>Tue, 26 May 2026 01:04:32 -0400</pubDate>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/agent-rl-infra/</guid>
-      <description>Why agentic RL is breaking the assumptions that RLVR frameworks were built on &amp;ndash; and what the next generation of RL infra needs to look like. A survey of Forge, ROLL, Seer and Slime, plus lessons from my own work on Polar.</description>
+      <description>Why the agentic shift breaks classical RL infra, a tour of Forge, ROLL, SkyRL and Slime, and our recent take with Polar.</description>
     </item>
   </channel>
 </rss>

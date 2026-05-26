@@ -1,12 +1,11 @@
 ---
 title: "Rethinking RL Infra for Agents"
 date: 2026-05-26
-draft: true
 tags: ["agent", "rl", "infra", "polar"]
 author: "Binfeng Xu"
 showToc: true
 TocOpen: false
-summary: "Why the agentic shift breaks classical RL infra, a tour of Forge, ROLL, SkyRL and Slime, and our recent take with Polar."
+summary: "Why the agentic shift breaks classical RL infra, a tour of Forge, ROLL, SkyRL and Slime, and my recent take with Polar (Agentic RL on Any Harness at Scale)."
 ---
 
 A year ago, RL for LLMs was almost entirely about reasoning -- math, code, short single-turn problems with a clean verifier. The whole loop fit on one picture: model generates a response, environment scores it, optimizer updates the weights. Research focus were algorithmic (GRPO, DAPO, GSPO, Dr.GRPO); while infra was mostly an afterthought.
