@@ -12,7 +12,7 @@ ShowBreadCrumbs: false
 <h2 style="margin-top: 0;">Binfeng Xu</h2>
 {{< /rawhtml >}}
 
-I’m a researcher at NVIDIA with a current focus on **Agentic RL**. I popularized LLM-Harness co-training with [Polar](https://github.com/NVIDIA-NeMo/ProRL-Agent-Server/commits/stable), and am working towards the open frontier of Agentic RL data synthesis, infrastructure and algorithm / recipes as a whole.
+I’m a researcher at NVIDIA with a current focus on **Agentic RL**. I popularized LLM-Harness co-training with [Polar](https://github.com/NVIDIA-NeMo/ProRL-Agent-Server/commits/stable), and am solving the open challenges of Agentic AI from data, infra, recipe to harness as a whole.
 
 Formerly, I was a researcher at Samsung Research (SRA) where I led LLM post-training + distillation infra. I enjoy training large neural nets, building open-source projects and competing on [Kaggle](https://www.kaggle.com/billbafare), where I rank top 1% globally. 
 
