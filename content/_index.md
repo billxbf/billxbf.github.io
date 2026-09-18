@@ -1,6 +1,6 @@
 ---
-layout: "single"
-url: "/about/"
+# title: "Binfeng Xu"
+aliases: ["/about/"]
 ShowToc: false
 ShowReadingTime: false
 ShowBreadCrumbs: false
@@ -9,10 +9,12 @@ ShowBreadCrumbs: false
 {{< rawhtml >}}
 <div style="display: flex; align-items: flex-start; gap: 2rem; flex-wrap: wrap;">
 <div style="flex: 1; min-width: 300px;">
-<h2 style="margin-top: 0;">Binfeng Xu</h2>
+<h1 style="margin-top: 0;">Binfeng Xu</h1>
 {{< /rawhtml >}}
 
-I’m a researcher at NVIDIA with a current focus on **Agentic RL**. I popularized LLM-Harness co-training with [Polar](https://github.com/NVIDIA-NeMo/ProRL-Agent-Server/commits/stable), and am working towards the open frontier of Agentic RL data synthesis, infrastructure and algorithm / recipes as a whole.
+{{< social_icons >}}
+
+I'm a researcher at **NVIDIA** working on everything around **Agentic RL**.
 
 Formerly, I was a researcher at Samsung Research (SRA) where I led LLM post-training + distillation infra. I enjoy training large neural nets, building open-source projects and competing on [Kaggle](https://www.kaggle.com/billbafare), where I rank top 1% globally. 
 
@@ -29,7 +31,7 @@ Formerly, I was a researcher at Samsung Research (SRA) where I led LLM post-trai
 ---
 
 
-## Papers
+## Recent Publication
 
 - [**FlashREINFORCE: Critic-Free Single-Rollout Asynchronous RL for Agentic Language Models**](https://www.alphaxiv.org/abs/2609.flashreinforce-asynchronous-rl-agentic-models)  
   <span style="font-size: 0.8em; color: #666;">Jian Hu, Yifan Zhang, Hao Zhang, **Binfeng Xu**, Shaokun Zhang, Hongqing Peng, Zhiding Yu, Pavlo Molchanov, Jan Kautz, Yi Dong</span>
@@ -73,4 +75,3 @@ Photography @<a href="https://www.instagram.com/billxbf/?igsh=OGQ5ZDc2ODk2ZA%3D%
   <img src="/pics/kobu5.jpg" alt="Kobu" style="max-width: 150px; border-radius: 8px;">
 </div>
 {{< /rawhtml >}}
-
