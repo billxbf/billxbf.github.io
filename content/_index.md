@@ -1,77 +1,12 @@
 ---
-# title: "Binfeng Xu"
-aliases: ["/about/"]
-ShowToc: false
-ShowReadingTime: false
-ShowBreadCrumbs: false
+title: "Binfeng Xu"
 ---
 
-{{< rawhtml >}}
-<div style="display: flex; align-items: flex-start; gap: 2rem; flex-wrap: wrap;">
-<div style="flex: 1; min-width: 300px;">
-<h1 style="margin-top: 0;">Binfeng Xu</h1>
-{{< /rawhtml >}}
+I focus on advancing post-training and RL systems for Agents -- infra, algorithms, harness and data scaling, in a unified and accessible way.
+I believe that AGI is grokking of collective interests.
 
-{{< social_icons >}}
+For example, I built [*Polar*](https://github.com/NVIDIA-NeMo/ProRL-Agent-Server), the first open framework bridging Agent *post-training* and *harness engineering*.
+[*Skill2Env*](https://github.com/NVlabs/Skill2Env) democratizes RL data scaling via collective *Skills*.
+My recent research covers RL systems and algorithms, terminal/computer-use agent, harness design and continual learning.
 
-I'm a researcher at **NVIDIA** working on everything around **Agentic RL**.
-
-Formerly, I was a researcher at Samsung Research (SRA) where I led LLM post-training + distillation infra. I enjoy training large neural nets, building open-source projects and competing on [Kaggle](https://www.kaggle.com/billbafare), where I rank top 1% globally. 
-
-<!-- During my MS. at NYU, I briefly worked with [Alfredo Canziani](https://atcold.github.io/) and [Yann LeCun](https://scholar.google.com/citations?user=WLN3QrAAAAAJ&hl=en) on autonomous driving. Prior at WFU, I was advised by [Grey Ballard](https://users.wfu.edu/ballard/) on efficient tensor decomposition and [Paúl Pauca](https://paucavp.sites.wfu.edu/) on object detection for drone & satellite images. -->
-
-{{< rawhtml >}}
-</div>
-<div style="flex-shrink: 0; margin-top: 2rem;">
-<img src="/pics/billxbf.png" alt="Binfeng Xu" style="width: 220px; border-radius: 8px;">
-</div>
-</div>
-{{< /rawhtml >}}
-
----
-
-
-## Recent Publication
-
-- [**FlashREINFORCE: Critic-Free Single-Rollout Asynchronous RL for Agentic Language Models**](https://www.alphaxiv.org/abs/2609.flashreinforce-asynchronous-rl-agentic-models)  
-  <span style="font-size: 0.8em; color: #666;">Jian Hu, Yifan Zhang, Hao Zhang, **Binfeng Xu**, Shaokun Zhang, Hongqing Peng, Zhiding Yu, Pavlo Molchanov, Jan Kautz, Yi Dong</span>
-
-- [**Molt: A Scalable PyTorch-Native Training Framework for Agentic Reinforcement Learning**](https://arxiv.org/abs/2607.21653)  
-  <span style="font-size: 0.8em; color: #666;">Jian Hu, Huiying Li, Hao Zhang, **Binfeng Xu**, Yifan Zhang, Shaokun Zhang, Hemil Desai, Michael Demoret, Pavlo Molchanov, Jan Kautz, Yi Dong</span>
-
-- [**Polar: Agentic RL on Any Harness at Scale**](/works/polar_arxiv.pdf)  
-  <span style="font-size: 0.8em; color: #666;">**Binfeng Xu**, Hao Zhang, Shaokun Zhang, Songyang Han, Mingjie Liu, Jian Hu, Shizhe Diao, Zhenghui Jin, Yunheng Zou, Michael Demoret, Jan Kautz, Yi Dong</span>
-
-- [**Gentopia: A Collaborative Platform for Tool-Augmented LLMs**](/works/gentopia_arxiv.pdf)  
-  <span style="font-size: 0.8em; color: #666;">**Binfeng Xu**, Xukun Liu, Hua Shen, Zeyu H, Yuhan L, Murong Y, Zhiyuan P, Yuchen L, Ziyu Y, Dongkuan Xu</span>
-
-- [**ReWOO: Decoupling Reasoning from Observations for Efficient Augmented Language Models**](/works/ReWOO_preprint.pdf)  
-  <span style="font-size: 0.8em; color: #666;">**Binfeng Xu**, Zhiyuan Peng, Bowen Lei, Subhabrata Mukherjee, Yuchen Liu, Dongkuan Xu</span>
-
-- [**Dynamic Noise Preference Optimization for LLM Self-Improvement**](/works/DNPO.pdf)  
-  <span style="font-size: 0.8em; color: #666;">Haoyan Yang, Ting Hua, Shangqian Gao, **Binfeng Xu**, Zheng Tang, Jie Xu, Hongxia Jin, Vijay Srinivasan</span>
-
-- [**Efficient Computation of Tucker Decomposition of Correlation-Based Tensors**](/works/Tucker.pdf)  
-  <span style="font-size: 0.8em; color: #666;">**Binfeng Xu**, Grey Ballard, Robert Lyday, Paul Laurienti</span>
-
-<!-- - [**Iterative Constringency Optimization: Preclustering Approach to Agent Interactive Data**](/works/ICO.pdf)  
-  **Binfeng Xu**, Nicole Dalzell -->
-
----
-
-## Misc
-
-{{< rawhtml >}}
-<p>
-I play all games by <a href="https://en.wikipedia.org/wiki/Hidetaka_Miyazaki">Hidetaka Miyazaki</a>, who motivated me once into indie Game Dev. 
-Photography @<a href="https://www.instagram.com/billxbf/?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr#">Instagram</a>; I enjoy Art. Minimalist.
-</p>
-{{< /rawhtml >}}
-
-{{< rawhtml >}}
-<div style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; margin-top: 1.5rem;">
-  <!-- <img src="/pics/kobu1.jpg" alt="Kobu" style="max-width: 250px; border-radius: 8px;"> -->
-  <img src="/pics/kobu2.jpg" alt="Kobu" style="max-width: 400px; border-radius: 8px;">
-  <img src="/pics/kobu5.jpg" alt="Kobu" style="max-width: 150px; border-radius: 8px;">
-</div>
-{{< /rawhtml >}}
+<!-- Formerly, I was a researcher at Samsung Research (SRA), where I led LLM post-training and distillation infra. I enjoy training large neural nets, building open-source projects and competing on [Kaggle](https://www.kaggle.com/billbafare), where I rank top 1% globally. -->

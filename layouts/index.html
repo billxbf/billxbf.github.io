@@ -1,76 +1,64 @@
-{{- define "main" }}
+{{ define "main" }}
+<section class="hero">
+  <div class="hero-text">
+    <h1>{{ site.Title }}</h1>
+    <p class="tagline">{{ site.Params.tagline }}</p>
+    <div class="bio">{{ .Content }}</div>
+    <div class="social">
+      {{ range site.Params.social }}
+      <a href="{{ .url }}">{{ partial "icon.html" .icon }}{{ .name }}</a>
+      {{ end }}
+    </div>
+  </div>
+  <div class="hero-photo-wrap">
+    <img class="hero-photo" src="{{ site.Params.avatar }}" alt="{{ site.Title }}">
+  </div>
+  {{ with resources.Get "js/kobu.js" | minify | fingerprint }}<script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" defer></script>{{ end }}
+</section>
 
-{{- if .Site.Params.homeInfoParams }}
-<article class="first-entry home-info">
-    <header class="entry-header">
-        <h1>{{ .Site.Params.homeInfoParams.Title | markdownify }}</h1>
-    </header>
-    {{/* Hero image between title and content */}}
-    {{- if .Site.Params.cover.image }}
-    <figure class="entry-cover" style="margin: 1rem 0;">
-        <img loading="eager" src="{{ .Site.Params.cover.image }}" alt="{{ .Site.Params.cover.alt | default "cover" }}"
-            style="width: 100%; max-height: 300px; object-fit: cover; border-radius: 8px;">
-    </figure>
-    {{- end }}
-    <section class="entry-content">
-        <p>{{ .Site.Params.homeInfoParams.Content | markdownify }}</p>
-    </section>
-    <footer class="entry-footer">
-        {{- partial "social_icons.html" (dict "align" site.Params.homeInfoParams.AlignSocialIconsTo) -}}
-    </footer>
-</article>
-{{- end }}
+<section id="research" class="section">
+  <h2>Research</h2>
+  <div class="papers">
+    {{ range site.Data.papers }}
+    <article class="paper">
+      <a class="paper-thumb" href="{{ .url }}" tabindex="-1">
+        {{ with .image }}<img src="{{ . }}" alt="" loading="lazy">{{ else }}<span>{{ .short | default (index (split .title ":") 0) }}</span>{{ end }}
+      </a>
+      <div class="paper-body">
+      <a class="paper-title" href="{{ .url }}">{{ .title }}</a>
+      <p class="authors">{{ .authors | markdownify }}</p>
+      <div class="tags">
+        {{ range .tags }}
+        {{ $cls := printf "tag tag-%s" (.label | urlize) }}
+        {{ with .url }}<a class="{{ $cls }}" href="{{ . }}">{{ else }}<span class="{{ $cls }}">{{ end }}{{ .label }}{{ if .url }}</a>{{ else }}</span>{{ end }}
+        {{ end }}
+      </div>
+      </div>
+      {{ with .area }}<span class="paper-area">{{ . }}</span>{{ end }}
+    </article>
+    {{ end }}
+  </div>
+</section>
 
-{{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
-{{- $paginator := .Paginate $pages }}
+<section id="blog" class="section">
+  <h2>Blog</h2>
+  <ul class="posts">
+    {{ range where site.RegularPages "Section" "posts" }}
+    <li>
+      <a href="{{ .RelPermalink }}">
+        <span class="date">{{ .Date.Format "2006.01.02" }}</span>
+        <span class="post-title">{{ .Title }}</span>
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+</section>
 
-{{- range $index, $page := $paginator.Pages }}
-
-{{- $class := "post-entry" }}
-
-<article class="{{ $class }}">
-    {{- $isHidden := (.Site.Params.cover.hiddenInList | default .Site.Params.cover.hidden) }}
-    {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
-    <header class="entry-header">
-        <h2 class="entry-hint-parent">
-            {{- .Title }}
-            {{- if .Draft }}<span class="entry-hint" title="Draft"><svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="20" fill="currentColor"><path d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5TSemantics859-380L fokus639-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z"/></svg></span>{{- end }}
-        </h2>
-    </header>
-    {{- if (ne (.Param "hideSummary") true) }}
-    <section class="entry-content">
-        <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
-    </section>
-    {{- end }}
-    <footer class="entry-footer">
-        {{- partial "post_meta.html" . -}}
-    </footer>
-    <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
-</article>
-{{- end }}
-
-{{- if gt $paginator.TotalPages 1 }}
-<footer class="page-footer">
-    <nav class="pagination">
-        {{- if $paginator.HasPrev }}
-        <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">
-            «&nbsp;{{ i18n "prev_page" }}&nbsp;
-            {{- if lt $paginator.PageNumber 3 }}
-            {{- $paginator.Prev.PageNumber }}/{{ $paginator.TotalPages }}
-            {{- end }}
-        </a>
-        {{- end }}
-        {{- if $paginator.HasNext }}
-        <a class="next" href="{{ $paginator.Next.URL | absURL }}">
-            {{- if gt (sub $paginator.TotalPages $paginator.PageNumber) 1 }}
-            {{ $paginator.Next.PageNumber }}/{{ $paginator.TotalPages }}&nbsp;
-            {{- end }}
-            {{ i18n "next_page" }}&nbsp;»
-        </a>
-        {{- end }}
-    </nav>
-</footer>
-{{- end }}
-
-{{- end }}{{- /* end main */ -}}
-
+<section id="misc" class="section">
+  <h2>Misc</h2>
+  <p class="misc-text">{{ site.Data.misc.text | markdownify }}</p>
+  <div class="photos">
+    {{ range site.Data.misc.photos }}<img src="{{ .src }}" alt="{{ .alt }}" loading="lazy">{{ end }}
+  </div>
+</section>
+{{ end }}

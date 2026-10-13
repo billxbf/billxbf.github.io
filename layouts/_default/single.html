@@ -1,0 +1,13 @@
+{{ define "main" }}
+<article class="post">
+  <header>
+    <p class="date">{{ .Date.Format "January 2, 2006" }}</p>
+    <h1>{{ .Title }}</h1>
+  </header>
+  {{ if and .Params.showToc (gt (len .TableOfContents) 32) }}
+  <details class="toc"><summary>Contents</summary>{{ .TableOfContents }}</details>
+  {{ end }}
+  <div class="prose">{{ .Content }}</div>
+  <p class="back"><a href="/#blog">← All posts</a></p>
+</article>
+{{ end }}
