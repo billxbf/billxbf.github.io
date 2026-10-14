@@ -4,10 +4,11 @@
 
 - title: "Skill2Env: Reinforcing Agents with Collective Skills"
   image: "/pics/papers/skill2env.png"
-  url: "https://www.alphaxiv.org/pdf/2609.reinforcing-agents-collective-skills"
+  url: "https://www.alphaxiv.org/abs/2609.reinforcing-agents-collective-skills"
   authors: "**Binfeng Xu**, Jian Hu, Hao Zhang, Shaokun Zhang, Yifan Zhang, Michael Demoret, Jan Kautz, Yi Dong"
   area: "RL Data Scaling"
   tags:
+    - { label: PDF, url: "https://www.alphaxiv.org/pdf/2609.reinforcing-agents-collective-skills" }
     - { label: GitHub, url: "https://github.com/NVlabs/Skill2Env" }
     - { label: Harbor, url: "https://hub.harborframework.com/datasets/skill2env/skill2env" }
     - { label: X, url: "https://x.com/billxbf/status/2101990023788908956" }
@@ -18,6 +19,7 @@
   authors: "Jian Hu*, Yifan Zhang*, Hao Zhang*, **Binfeng Xu***, Shaokun Zhang, Hongqing Peng, Zhiding Yu, Pavlo Molchanov, Jan Kautz, Yi Dong"
   area: "Async RL Recipe"
   tags:
+    - { label: PDF, url: "https://www.alphaxiv.org/pdf/2609.flashreinforce-asynchronous-rl-agentic-models" }
     - { label: GitHub, url: "https://github.com/yifanzhang-pro/FlashREINFORCE"}
     - { label: X, url: "https://x.com/hijkzzz/status/2099347315240865859"}
 
@@ -27,14 +29,9 @@
   authors: "Shaokun Zhang, Yifan Zhang, Jian Hu, Yueying Li, Hao Zhang, **Binfeng Xu**, Jan Kautz, Yi Dong"
   area: "Memory Efficient RL"
   tags:
+    - { label: PDF, url: "https://arxiv.org/pdf/2610.06647" }
     - { label: GitHub, url: "https://github.com/skzhang1/labs-molt/tree/logra/examples/scripts/logra" }
     - { label: X, url: "https://x.com/ShaokunZhang1/status/2107568740351226110" }
-
-- title: "OSWorld-Pro: Process-based Evaluation for Computer Use Agents"
-  image: "/pics/papers/osworld-pro.png"
-  url: "https://arxiv.org/abs/2609.24890"
-  authors: "Zhilin Wang, Shaokun Zhang, Yifan Zhang, Hao Zhang, Jin Xu, **Binfeng Xu**, Jian Hu, Yunheng Zou, Karan Sapra, Andrew Tao, Jan Kautz, Yi Dong"
-  area: "Computer-use Agent"
 
 - title: "Agora: Git as Shared Memory for Collective AutoResearch"
   image: "/pics/papers/agora.png"
@@ -42,7 +39,17 @@
   authors: "Yifan Zhang, Yunheng Zou, Shaokun Zhang, Jian Hu, Hao Zhang, **Binfeng Xu**, Jan Kautz, Yi Dong"
   area: "Agent Harness / AutoResearch"
   tags:
+    - { label: PDF, url: "https://arxiv.org/pdf/2609.18094" }
+    - { label: Page, url: "https://yifanzhang-pro.github.io/Agora/" }
     - { label: GitHub, url: "https://github.com/yifanzhang-pro/Agora" }
+
+- title: "OSWorld-Pro: Process-based Evaluation for Computer Use Agents"
+  image: "/pics/papers/osworld-pro.png"
+  url: "https://arxiv.org/abs/2609.24890"
+  authors: "Zhilin Wang, Shaokun Zhang, Yifan Zhang, Hao Zhang, Jin Xu, **Binfeng Xu**, Jian Hu, Yunheng Zou, Karan Sapra, Andrew Tao, Jan Kautz, Yi Dong"
+  area: "Computer-use Agent"
+  tags:
+    - { label: PDF, url: "https://arxiv.org/pdf/2609.24890" }
 
 - title: "Polar: Agentic RL on Any Harness at Scale"
   image: "/pics/papers/polar.png"
@@ -50,6 +57,7 @@
   authors: "**Binfeng Xu**, Hao Zhang, Shaokun Zhang, Songyang Han, Mingjie Liu, Jian Hu, Shizhe Diao, Zhenghui Jin, Yunheng Zou, Michael Demoret, Jan Kautz, Yi Dong"
   area: "Agent RL Infra"
   tags:
+    - { label: PDF, url: "https://arxiv.org/pdf/2605.24220" }
     - { label: GitHub, url: "https://github.com/NVIDIA-NeMo/ProRL-Agent-Server" }
     - { label: X, url: "https://x.com/billxbf/status/2059323616009838703" }
     - { label: Blog, url: "/posts/agent-rl-infra/" }
@@ -60,6 +68,7 @@
   authors: "Jian Hu, Huiying Li, Hao Zhang, **Binfeng Xu**, Yifan Zhang, Shaokun Zhang, Hemil Desai, Michael Demoret, Pavlo Molchanov, Jan Kautz, Yi Dong"
   area: "Agent RL Infra"
   tags:
+    - { label: PDF, url: "https://arxiv.org/pdf/2607.21653" }
     - { label: GitHub, url: "https://github.com/NVIDIA-NeMo/labs-molt" }
     - { label: X, url: "https://x.com/billxbf/status/2076852585193968023" }
 
@@ -70,6 +79,7 @@
   authors: "Nvidia"
   area: "Multimodal LLM"
   tags:
+    - { label: PDF, url: "https://arxiv.org/pdf/2604.24954" }
     - { label: HuggingFace, url: "https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16" }
 
 - title: "Dynamic Noise Preference Optimization for LLM Self-Improvement via Synthetic Data"
@@ -78,20 +88,22 @@
   authors: "Haoyan Yang, Ting Hua, Shangqian Gao, **Binfeng Xu**, Zheng Tang, Jie Xu, Hongxia Jin, Vijay Srinivasan"
   area: "RL Recipe"
   tags:
-    - { label: OpenReview, url: "https://openreview.net/forum?id=QdiMWcwU5w" }
+    - { label: PDF, url: "https://arxiv.org/pdf/2502.05400" }
 
 - title: "Gentopia: A Collaborative Platform for Tool-Augmented LLMs"
   image: "/pics/papers/gentopia.png"
   url: "https://arxiv.org/abs/2308.04030"
   authors: "**Binfeng Xu**, Xukun Liu, Hua Shen, Zeyu Han, Yuhan Li, Murong Yue, Zhiyuan Peng, Yuchen Liu, Ziyu Yao, Dongkuan Xu"
-  area: "Agent Framework"
+  area: "Agent Harness"
   tags:
+    - { label: PDF, url: "https://arxiv.org/pdf/2308.04030" }
     - { label: GitHub, url: "https://github.com/Gentopia-AI/Gentopia" }
 
 - title: "ReWOO: Decoupling Reasoning from Observations for Efficient Augmented Language Models"
   image: "/pics/papers/rewoo.png"
   url: "https://arxiv.org/abs/2305.18323"
   authors: "**Binfeng Xu**, Zhiyuan Peng, Bowen Lei, Subhabrata Mukherjee, Yuchen Liu, Dongkuan Xu"
-  area: "Agent Reasoning"
+  area: "Agent Harness"
   tags:
+    - { label: PDF, url: "https://arxiv.org/pdf/2305.18323" }
     - { label: GitHub, url: "https://github.com/billxbf/ReWOO" }
