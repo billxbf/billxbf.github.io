@@ -119,6 +119,8 @@
   const tick = now => {
     const dt = Math.min((now - last) / 1000, 0.1);
     last = now;
+    const m = maxX();  // layout can change after load (late CSS, viewport resize, rotation)
+    x = Math.min(Math.max(x, 0), m); target = Math.min(Math.max(target, 0), m);
     if (state === 'walk') {
       const d = target - x, step = SPEED * dt;
       if (Math.abs(d) <= step) { x = target; state = 'sit'; timer = 2 + Math.random() * 3; }
