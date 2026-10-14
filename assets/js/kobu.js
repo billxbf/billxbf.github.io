@@ -4,11 +4,11 @@
 
   const PALETTE = { K: '#2e2118', B: '#6b4a2f', D: '#4e3523', T: '#a47b4f', W: '#f3ece0', G: '#8fbf4a', H: '#ffffff', P: '#e59a9a', R: '#efb0a1' };
   const WALK_0 = [
-    '..........................',
     '.KK.......................',
-    'KBBK...........K.......K..',
-    'KBDBK.........KBK.....KBK.',
-    'KBBDK.........KBTKKKKKTBK.',
+    'KBBK......................',
+    'KBDBK..........K.......K..',
+    'KBBDK.........KBK.....KBK.',
+    'KBDBK.........KBTKKKKKTBK.',
     '.KBBK..KKKKKKKKBDTDTDTDBK.',
     '..KBBKKBBDBBDBKTTTTTTTTTK.',
     '..KBBBBDBBDBBDKTHKTTTHKTK.',
@@ -24,11 +24,11 @@
   ];
   const WALK_1 = [
     '..........................',
-    '..........................',
     '..KK......................',
-    '.KBBK...........K.......K.',
-    'KBDBK..........KBK.....KBK',
-    'KBBDK..KKKKKKKKKBTKKKKKTBK',
+    '.KBBK.....................',
+    'KBDBK...........K.......K.',
+    'KBBDK..........KBK.....KBK',
+    'KBDBK..KKKKKKKKKBTKKKKKTBK',
     '.KBBKKKBBDBBDBBKBDTDTDTDBK',
     '..KBBBBDBBDBBDBKTTTTTTTTTK',
     '..KBBDBBDBBDBBDKTHKTTTHKTK',
@@ -50,12 +50,12 @@
     '.............KTHKTTTHKTK..',
     '.............KTKGTTTKGTK..',
     '..........KKKKRTTWPWTTRK..',
-    '........KKBDBBKTTWWWTTK...',
-    '..KK...KBDBBDBKBKKKKKKK...',
-    '.KBBK.KBDBBDBBKBTWWWTBK...',
-    '.KBDKKBBDBBDBBKBBTWTBBK...',
-    '.KBBKKBDBBDBBDKBDBTBDBK...',
-    '.KBDKBBBBBBBBBKBBBBBBBK...',
+    '..KK....KKBDBBKTTWWWTTK...',
+    '.KBBK..KBDBBDBKBKKKKKKK...',
+    '.KBDK.KBDBBDBBKBTWWWTBK...',
+    '.KBBKKBBDBBDBBKBBTWTBBK...',
+    '.KBDKKBDBBDBBDKBDBTBDBK...',
+    '.KBBKBBBBBBBBBKBBBBBBBK...',
     '..KBKBBBBBBBBBKBBKBKBBK...',
     '....KTKTTKTTKTKWWKBKWWK...',
     '....KKKKKKKKKKKKKKKKKKK...',
@@ -71,9 +71,9 @@
     '.......KRTTWPWTTRK........',
     '........KTTWWWTTK.........',
     '........KKKKKKKKK.........',
-    '.......KBBBTWTBBBK........',
-    '......KBDBBTWTBBDBK.KK....',
-    '......KBBDBBTBBDBBK.BBK...',
+    '.......KBBBTWTBBBK..KK....',
+    '......KBDBBTWTBBDBK.BBK...',
+    '......KBBDBBTBBDBBK.DBK...',
     '.....KBDBBBKBKBBBDBKDBK...',
     '.....KBBBBKBBBKBBBBKBBK...',
     '.....KTTBBKWKWKBBTTKBK....',
@@ -106,14 +106,14 @@
   };
   const face = dir => { facing = dir; canvas.style.transform = dir < 0 ? 'scaleX(-1)' : ''; };
 
-  // walk -> sit (2-5s) -> [front 0.3s -> flip -> sit 2s, if the target is behind] -> walk
+  // walk -> sit (4-7s) -> [front 0.24s -> flip -> sit 2s, if the target is behind] -> walk
   const maxX = () => wrap.clientWidth - W * SCALE;
   let x = Math.random() * maxX(), target = x, facing = 1, state = 'sit', timer = 1, walkT = 0, blinkT = 2, last = performance.now();
 
   const pickTarget = () => {
     do target = Math.random() * maxX(); while (Math.abs(target - x) < maxX() / 3);
     if (Math.sign(target - x) === facing) { state = 'walk'; return; }
-    state = 'turn'; timer = 0.3; show('front');
+    state = 'turn'; timer = 0.24; show('front');
   };
 
   const tick = now => {
@@ -123,7 +123,7 @@
     x = Math.min(Math.max(x, 0), m); target = Math.min(Math.max(target, 0), m);
     if (state === 'walk') {
       const d = target - x, step = SPEED * dt;
-      if (Math.abs(d) <= step) { x = target; state = 'sit'; timer = 2 + Math.random() * 3; }
+      if (Math.abs(d) <= step) { x = target; state = 'sit'; timer = 4 + Math.random() * 3; }
       else {
         x += Math.sign(d) * step;
         if ((walkT += dt) > 0.7) walkT = 0;
