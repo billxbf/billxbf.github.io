@@ -2,7 +2,7 @@
 title: "Binfeng Xu"
 ---
 
-I'm an Nvidia researcher building RL systems for agents, coupling infra, algorithms, data/env and harness.
+I'm a researcher at nvidia building RL systems for agents, coupling infra, algorithms, data/env and harness.
 
 My recent work covers terminal/computer-use agent, post-training infrastructure and algorithm, vertical harness (eg. autoresearch) and continual learning.
 For example, [Polar](https://github.com/NVIDIA-NeMo/ProRL-Agent-Server) is the first open RL framework realizing scalable *any-harness* rollout.
