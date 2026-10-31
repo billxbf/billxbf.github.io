@@ -5,9 +5,9 @@ title: "Binfeng Xu"
 I'm an Nvidia researcher building RL systems for agents, coupling infra, algorithms, data/env and harness.
 
 My recent work covers terminal/computer-use agent, post-training infrastructure and algorithm, vertical harness (eg. autoresearch) and continual learning.
-For example, [*Polar*](https://github.com/NVIDIA-NeMo/ProRL-Agent-Server) is the first open RL framework realizing scalable *any-harness* rollout.
-To scale agent RL data, [*Skill2Env*](https://github.com/NVlabs/Skill2Env) turns web-crawled *Agent Skills* into verifiable terminal tasks.
-[*FlashREINFORCE*](https://www.alphaxiv.org/pdf/2609.flashreinforce-asynchronous-rl-agentic-models) corrects false credit-assignment and train-inference mismatch to stablize long-horizon async RL.
+For example, [Polar](https://github.com/NVIDIA-NeMo/ProRL-Agent-Server) is the first open RL framework realizing scalable *any-harness* rollout.
+To scale agent RL data, [Skill2Env](https://github.com/NVlabs/Skill2Env) turns web-crawled *Agent Skills* into verifiable terminal tasks.
+[FlashREINFORCE](https://www.alphaxiv.org/pdf/2609.flashreinforce-asynchronous-rl-agentic-models) corrects false credit-assignment and train-inference mismatch to stablize long-horizon async RL.
 
 
 
