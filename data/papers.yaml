@@ -70,7 +70,7 @@
     - { label: Blog, url: "/posts/agent-rl-infra/" }
 
 - title: "Molt: A Scalable PyTorch-Native Training Framework for Agentic Reinforcement Learning"
-  pinned: true
+  pinned: false
   image: "/pics/papers/molt.png"
   url: "https://arxiv.org/abs/2607.21653"
   authors: "Jian Hu, Huiying Li, Hao Zhang, **Binfeng Xu**, Yifan Zhang, Shaokun Zhang, Hemil Desai, Michael Demoret, Pavlo Molchanov, Jan Kautz, Yi Dong"
