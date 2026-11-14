@@ -2,11 +2,11 @@
 title: "Binfeng Xu"
 ---
 
-I'm a researcher at Nvidia advancing RL systems for agents, coupling training infra, recipe, data/env and harness design.
+I'm a researcher at Nvidia advancing RL systems for terminal agents, coupling training infra, recipe, data/env and harness design.
 
-Earlier, I built [Polar](https://github.com/NVIDIA-NeMo/ProRL-Agent-Server), the first framework realizing scalable *any-harness* RL in the open.
+Earlier, I built [Polar](https://github.com/NVIDIA-NeMo/ProRL-Agent-Server) (ProRL-Agent-Server), the first framework realizing scalable *any-harness* RL in the open.
 To democratize agentic RL dataset, [Skill2Env](https://github.com/NVlabs/Skill2Env) turns public *Agent Skills* into verifiable terminal tasks.
-To stablize long-horizen async RL big-runs, I co-developed RL recipes like seq-level KL gating ([FlashREINFORCE](https://www.alphaxiv.org/pdf/2609.flashreinforce-asynchronous-rl-agentic-models)) and train-inference zero mismatch ([REINFORCE Zero](https://www.alphaxiv.org/abs/2611.reinforce-zero-kernel-alignment-asynchronous-rl.pdf)).
+To stablize long-horizen async RL for agents, I co-developed RL recipes like seq-level KL gating ([FlashREINFORCE](https://www.alphaxiv.org/pdf/2609.flashreinforce-asynchronous-rl-agentic-models)) and zero train-inference mismatch ([REINFORCE Zero](https://www.alphaxiv.org/abs/2611.reinforce-zero-kernel-alignment-asynchronous-rl.pdf)).
 
 
 
